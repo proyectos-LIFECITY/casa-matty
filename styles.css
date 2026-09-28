@@ -222,3 +222,7 @@ body{padding-bottom:0}footer{padding-bottom:110px}
 /* Plano técnico + modelo 3D */
 .plano{display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:14px;margin-top:40px}.plano figure{background:#fff;border:1px solid var(--line);border-radius:8px;padding:8px;cursor:zoom-in}.plano img{width:100%}
 .plano figcaption{font-size:.8rem;color:var(--muted);padding:6px 4px 2px}
+
+/* Mapa de ubicación */
+.mapa{margin-top:40px;border-radius:12px;overflow:hidden;border:1px solid rgba(255,255,255,.2);background:#fff}.mapa iframe{display:block;width:100%;height:clamp(300px,50vh,460px);border:0}
+.mapa-bar{display:flex;gap:14px;align-items:center;justify-content:space-between;flex-wrap:wrap;padding:14px 18px;background:var(--green-dark);color:#f3efe4}.mapa-bar .btn{padding:10px 18px;font-size:.84rem}
